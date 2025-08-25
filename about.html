@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block childpage %}
+<div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="{% static 'images/about-1.jpg' %}">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="{% static 'images/about-2.jpg' %}" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="{% static 'images/about-3.jpg' %}">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="{% static 'images/about-4.jpg' %}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restaurant</h1>
+                        <p class="mb-4">  Welcome to <b>DineDivine</b>, where passion for great food and exceptional service comes together to create memorable dining experiences. Nestled in the heart of [City/Neighborhood],
+                            we’ve been delighting guests since [Year], offering a menu that celebrates the best of [Cuisine Type] with a modern twist</p>
+                        <p class="mb-4">At <b>DineDivine</b>, we’re dedicated to using only the finest, locally-sourced ingredients to craft dishes that are both innovative and timeless . Our talented chefs blend traditional techniques with creative flair, ensuring each meal is a feast for the senses.
+
+We believe dining is about more than just food; it’s about creating moments of connection and enjoyment. Whether you're here for a casual meal with friends, a romantic dinner, or a special celebration, our warm and inviting atmosphere is designed to make every visit special.</p>
+                        Thank you for choosing DineDivine. We’re thrilled to share our passion for exceptional dining with you and look forward to welcoming you soon.<br/>
+
+The <b>DineDivine Team</b>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Years of</p>
+                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Popular</p>
+                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
